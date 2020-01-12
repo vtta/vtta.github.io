@@ -15,7 +15,7 @@ description = ""
 default_language = "en"
 
 # Theme name to use
-theme = ""
+theme = "even"
 
 # Which theme to use for the code highlighting.
 # See below for list of accepted values
