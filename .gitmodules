@@ -3,4 +3,4 @@
 	url = https://github.com/getzola/even.git
 [submodule "themes/hermit"]
 	path = themes/hermit
-	url = https://github.com/rednithin/hermit_zola
+	url = https://github.com/vtta/hermit_zola
