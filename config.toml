@@ -99,9 +99,9 @@ hermit_menu = [
     { link = "/about", name = "About" }
 ]
 hermit_social = [
-    { name = "twitter", link = "https://twitter.com" },
-    { name = "github", link = "https://github.com" },
-    { name = "email", link = "mailto:author@domain.com" }
+    { name = "github", link = "https://github.com/vtta" },
+    { name = "instagram", link = "https://www.instagram.com/vtta0124/" },
+    { name = "email", link = "mailto:vtta0124@gmail.com" }
 ]
 
 # Add custom css
