@@ -10,8 +10,8 @@ tags = ["notes", "rust"]
 +++
 
 纠结了好久`Raft`到底是做PingCAP的还是MIT的，
-于是昨天去试了一把GO，
-过完官方教程的赶紧就是，这语言是一坨x么？？？
+于是昨天去试了一把GO.
+过完官方教程的感觉就是，这语言是一坨x么？？？
 语法就不吐槽了，
 编译器什么都不管，一有问题就是`runtime error`，
 要是这样开干`Raft`，
@@ -90,3 +90,42 @@ enum KvsCmd {
 整个`struct`和嵌套的`enum`展开之后的数据结构就是所有参数整体的逻辑结构，
 用宏标记了每个field的属性，
 注释会被解析为对应field的帮助信息，妙啊。
+
+
+## 测试
+
+项目说明中说还未实现的函数body中要写`panic!()`而不是`unimplemented!()`。
+给的理由是因为前者更短？？？
+实在搞不明白，为啥不用`todo!()`，这个不是更短？？？
+而且还可以被`Clion`识别，反正我是用了。
+
+- 可以写测试的地方
+  - Inside the source of your library
+  - Inside the source of each of your binaries
+  - Inside each test file
+  - In the doc comments of your library
+
+没错，我又开始用`IDE`了，
+`neovim`、`sublime`、`xi-editor`、`vscode`一路走来，
+真正做事情的时候还是用`IDE`不会分心，
+实在没有特别好用的`IDE`的时候那就`vscode`吧，
+这么长时间过来是越来越方便了，不用一鼓捣配置就是一下午。
+还在等微软爸爸的`vscode online`呢，
+不懂为啥国内VISA卡不能开`azure`不能早点享福。
+
+
+## 文档
+
+crate level docs里面不能加测试，
+因为要放在最前面，这个时候写了那些东西都不知道。
+
+`Clion`里运行文档中的测试总是会卡很久，
+还不清楚是为什么。
+
+
+## CI
+
+最近迷上了`GitHub Actions`，
+毕竟是自家服务，用起来还是快很多。
+而且每个`action`可以直接引用其他项目，很方便。
+`rust`项目可以直接复制[这里](https://github.com/actions-rs/meta/blob/master/recipes/quickstart.md)的。`Cmd+CV`程序员坐实了。
