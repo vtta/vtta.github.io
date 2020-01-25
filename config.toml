@@ -94,8 +94,8 @@ extra_syntaxes = []
 home_subtitle = "vtta's homepage"
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 hermit_menu = [
-    { link = "/notes", name = "Notes" },
     { link = "/posts", name = "Posts" },
+    { link = "/tags", name = "Tags" },
     { link = "/about", name = "About" }
 ]
 hermit_social = [

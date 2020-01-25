@@ -6,7 +6,7 @@ date = 2020-01-13
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["rust", "notes"]
+tags = ["notes", "rust"]
 +++
 
 <!-- more -->

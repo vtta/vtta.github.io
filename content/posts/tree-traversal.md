@@ -1,16 +1,16 @@
 +++
-title = "LeetCode - 树的遍历"
+title = "树的遍历"
 weight = 1
 order = 1
 date = 2020-01-22
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["algorithm", "notes"]
+tags = ["algorithm", "notes", "leetcode"]
 +++
 
 之前写遍历全都无脑递归，
-实在是因为太好写，而且去年哦不前年看邓公讲的东西到现在都给忘了。
+实在是因为太好写，而且去年哦不前年看邓公讲的东西到现在早给忘光了。
 
 这两天又把邓公视频和PPT看了几遍，实在是妙啊。
 
@@ -30,6 +30,7 @@ tags = ["algorithm", "notes"]
 直到整个栈为空。
 
 ```cpp
+template <typename Fn>
 void pre_order(node *x, Fn &f) {
     std::stack<node *> s;
     while (true) {
@@ -59,6 +60,7 @@ void pre_order(node *x, Fn &f) {
 也就是可以访问这个节点本身，完毕后然后再转入右子树访问。
 
 ```cpp
+template <typename Fn>
 void in_order(node *x, Fn &f) {
     std::stack<node *> s;
     while (true) {
@@ -125,6 +127,7 @@ node *succ(node *x) {
 为什么压入`s2`时是先左后右呢，是因为我们想要先将右子树对应序列加入`s1`。
 
 ```cpp
+template <typename Fn>
 void post_order(node *x, Fn &f)  {
     stack<node *> s1{}, s2{};
     s1.push(x);
@@ -149,13 +152,13 @@ void post_order(node *x, Fn &f)  {
 思路其实也是左侧链，关键在于如何判断该对节点进行访问。
 
 解释请看[这里](https://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/)。
-其实还有第二种单栈写法，就是入栈时给元素打上标记，
-颇有LR分析的味道，扯远了扯远了，反正不是很推荐。
+其实还有第二种单栈写法，就是入栈时给元素打上标记，不是很喜欢。
 
 要注意的地方是入栈时将右孩子也入栈，
 便于判断右子树是否已经被访问过了。
 
 ```cpp
+template <typename Fn>
 void post_order(node *x, Fn &f) {
     std::stack<node *> s;
     while(true) {

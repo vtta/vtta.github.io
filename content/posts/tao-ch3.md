@@ -6,12 +6,10 @@ date = 2020-01-14
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["rust", "notes"]
+tags = ["notes", "rust"]
 +++
 
-<!-- more -->
 
-$\LaTeX$
 
 - 类型
   - 胖指针
