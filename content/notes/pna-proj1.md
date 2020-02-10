@@ -6,7 +6,7 @@ date = 2020-01-25
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["notes", "rust"]
+tags = ["notes"]
 +++
 
 纠结了好久`Raft`到底是做PingCAP的还是MIT的，

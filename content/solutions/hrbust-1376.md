@@ -6,7 +6,7 @@ date = 2020-02-04
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["algorithm"]
+tags = ["solutions"]
 +++
 
 [题目](https://vjudge.net/problem/HRBUST-1376)

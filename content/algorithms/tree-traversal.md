@@ -6,7 +6,7 @@ date = 2020-01-22
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["notes", "algorithm"]
+tags = ["algorithms"]
 +++
 
 之前写遍历全都无脑递归，

@@ -6,7 +6,7 @@ date = 2020-01-26
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["notes", "rust"]
+tags = ["notes"]
 +++
 
 ## LFS

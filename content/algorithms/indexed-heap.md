@@ -6,10 +6,10 @@ date = 2020-02-06
 #insert_anchor_links = "right"
 
 [taxonomies]
-tags = ["algorithm"]
+tags = ["algorithms"]
 +++
 
-昨天写[POJ2485](@/posts/poj-2485.md)的时候
+昨天写[POJ2485](@/solutions/poj-2485.md)的时候
 看那一个循环里面又套一个循环的，心里难受。
 一直说Prim可以用堆优化，
 于是来试试。
