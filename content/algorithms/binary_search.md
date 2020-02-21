@@ -1,5 +1,5 @@
 +++
-title = "Rolling Hashes and Bloom Filters"
+title = "Binary Search"
 weight = 1
 order = 1
 date = 2020-02-11

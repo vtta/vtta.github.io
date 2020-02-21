@@ -1,5 +1,5 @@
 +++
-title = "Fenwick tree"
+title = "Fenwick Tree"
 weight = 1
 order = 1
 date = 2020-02-04
