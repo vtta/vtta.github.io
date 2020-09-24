@@ -1,0 +1,4 @@
+- name: "Software Engineer - Intern"
+  company: "Alibaba Cloud"
+  date: "2020.05 - 2020.08"
+  details: "Worked in the EBS team. Researched and optimized for ways to solve the isolation problem in the multi-tenant oriented elastic block storage system."

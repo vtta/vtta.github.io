@@ -1,0 +1,31 @@
+- name: "MapReduce and Raft implementation - labs from MIT 6.824"
+  date: "2020.04"
+  details:
+    "Followed lectures and materials from MIT graduate course 6.824 on distributed systems, finished lab1 and lab2abc, built a) a crash-tolerant master/worker MapReduce framework, and b) a Raft implementation supporting AppendEntries and RequestVote RPC for leader election, log replication and reboot recovery."
+- name: "KvStore - A networked persistent log-structure key/value store"
+  date: "2020.02"
+  details: "Built a client/server style key/value store. The backend serializes randomly accessed data into a continuous stream using the log-structure approach, in the meantime, supports garbage collection of out-of-date data.
+  [link](https://github.com/vtta/kvs)"
+- name: "rCore - A mini operating system kernel for RISC-V in Rust"
+  date: "2020.01"
+  details: "Followed OS labs from Tsinghua University, built a micro-kernel that supports a) page based memory allocation and management, and b) kernel threads and corresponding round-robin scheduler. 
+  [link](https://github.com/vtta/os)"
+- name: "babycc - A compiler front-end for a subset of C language"
+  date: "2019.12"
+  details: "A parser via Flex/Bison, which turns C code into an abstract syntax tree.
+  [link](https://github.com/vtta/babycc)"
+- name: "BusTub - A buffer-pool based persistent hashtable database"
+  date: "2019.11"
+  details: "Followed lectures and materials from CMU course 15/445, built a) a buffer-pool based storage engine that uses the clock replacement algorithm, and b) a multi-threaded persistent hashtable for known-length data types powered by the engine mentioned before."
+# - name: "JOS - OS labs from MIT 6.828"
+#   date: "2019.06"
+#   details: "
+#   [link](https://github.com/vtta/6.828)"
+- name: "A 5-stage pipelined MIPS CPU core"
+  date: "2019.04"
+  details: "Designed and built a MIPS architecture CPU core supporting 19 instructions with a) a 5-stage (instruction fetch, decode, execution, memory operation, write back) pipeline, and b) detecting and forwarding unit for data hazards. Verified via deploying onto FPGA and passing the insertion sort test case.
+  [link](https://github.com/vtta/mips-cpu)"
+- name: "A mini STL-like data structure library"
+  date: "2018.12"
+  details: "Generic templates of vector, list, stack, queue, bitset, heap, and bstree.
+  [link](https://github.com/vtta/dsa/tree/xcode)"

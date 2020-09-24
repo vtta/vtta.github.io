@@ -1,0 +1,52 @@
+skills:
+  - "C/C++ - Rust - Go"
+  - "Python - Bash - Java"
+  - "Lisp/Scheme"
+  - "Linux - Vim - GDB"
+  - "Git - CI/CD"
+
+skillsGrouped:
+  # - groupName: "Databases & Visualization"
+  #   skills: ["Grafana - Kibana - PowerBI", "InfluxDB - TICK Stack"]
+ 
+  # - groupName: "Data Analysis & Analytics"
+  #   skills: ["Python - R - SQL", "Excel - Minitab - SPSS", "GAMS - PuLP - OR Tools"]
+
+  - groupName: "Programming Languages"
+    skills: ["C/C++ - Rust - Go", "Python - Bash - Java", "Lisp/Scheme"]
+
+  - groupName: "Tools & Systems"
+    skills: ["Linux - Vim - GDB", "Git - CI/CD"]
+
+interests:
+  - "Broad Systems Area:"
+  - "Database Systems"
+  - "Storage Systems"
+  - "Hardware"
+
+languages:
+  - name: "Chinese"
+    level: "Native"
+
+  - name: "English"
+    level: "Professional"
+    certificates: ["CET-6: 567"]
+
+
+awards:
+  - name: "Tübitak - Graduation Project"
+    date: "2017"
+    details: "A Decision Support System for 3D Cutting Problem"
+
+address:
+    - "Block C3, campus of informatics, Wuhan University, Hongshan District, Wuhan, Hubei, China. Postal Code 430072"
+    - "中国湖北省武汉市洪山区武汉大学信息学部C3舍"
+
+about:
+  - name: "Junliang Hu"
+    tagline: "interest-driven, self-motivated, system lover"
+    phone: "+86 13871245386"
+    email: "vtta0124@{gmail.com, whu.edu.cn}"
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare sollicitudin fringilla.
+              Aenean nec volutpat arcu. Maecenas quis tempus risus. Curabitur condimentum ligula in erat pharetra porta. 
+              Nam suscipit nisi a bibendum lacinia."

@@ -1,3 +1,47 @@
-baseURL = "http://example.org/"
+baseURL = "/"
+disableKinds = ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "resume-A4"
+title = "Resume | Junliang Hu"
+
+[params]
+avatar = "avatar.jpg"
+useFontAwesome = true
+
+[params.display]
+aboutMe = false
+avatar = true
+awards = false
+contact = true
+address = true
+education = true
+experience = true
+interests = true
+languages = true
+papers = false
+projects = true
+skills = false
+skills_grouped = true
+tagline = true
+
+[params.display.footer]
+credits = true
+footer = true
+links = true
+
+[params.footer]
+footnote = "Last update on 2020.09.24"
+
+[params.footer.links]
+
+[[params.footer.links.link]]
+icon = "fab fa-github"
+name = "Github"
+prefix = "Check out my"
+url = "https://github.com/vtta"
+
+[[params.footer.links.link]]
+icon = "fab fa-instagram"
+name = "Instagram"
+prefix = "Follow me on"
+url = "https://www.instagram.com/vtta0124/"
